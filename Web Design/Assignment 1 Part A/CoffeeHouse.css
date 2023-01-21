@@ -1,0 +1,63 @@
+body{
+	
+	/* background: url(https://static.toiimg.com/photo/84855613.cms); */
+    /* background: url(https://img2.10bestmedia.com/Images/Photos/385440/GettyImages-1127391694_54_990x660.jpg); */
+    /* background: url(https://images.squarespace-cdn.com/content/v1/5be4ea9b55b02cf09b6748bd/1545445153089-DVFZ81GBAXDALZQMBW9Z/kv0ghyn9e1szbbsrjuqj.jpg ); */
+    background: url(https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F44%2F2018%2F01%2F27125708%2FGettyImages-540712465_ground.jpg);
+	color: black;
+	background-repeat: no-repeat;
+	background-color:#c1e2e6;
+	font-family: Century Gothic;
+	width: 100vw;
+	height: 100vh;
+	background-size: cover;
+	background-position: top right;
+    overflow: hidden; 
+
+}
+
+html{
+
+	height: 100%;
+}
+#content{
+	text-align: center;
+	padding-top: 15%;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+				 0px 8px 13px rgba(0,0,0,0.1),
+				 0px 18px 23px rgba(0,0,0,0.1);
+
+}
+ 
+ h1{
+ 	font-weight: 700;
+ 	font-size: 5em;
+	color:white;
+    margin: 0 !important;
+	
+ }
+h3{
+	color:white;
+	font-size:170;
+
+    margin: 0 !important;
+}
+ hr{
+ 	width: 400px;
+ 	border-top: 1px solid #f8f8f8;
+ 	border-bottom:1px solid rgba(0,0,0,0.2); 
+
+ }
+a{
+	font-weight: 700;
+}
+.btn {
+    color: white !important;
+    text-decoration: none;
+}
+@media screen and (max-width:400px){
+		#content{
+		  text-align: center;
+			padding:40px;
+		}
+	}

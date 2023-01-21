@@ -1,0 +1,207 @@
+body{
+	
+	/* background: url(https://static.toiimg.com/photo/84855613.cms); */
+    /* background: url(https://img2.10bestmedia.com/Images/Photos/385440/GettyImages-1127391694_54_990x660.jpg); */
+    /* background: url(https://images.squarespace-cdn.com/content/v1/5be4ea9b55b02cf09b6748bd/1545445153089-DVFZ81GBAXDALZQMBW9Z/kv0ghyn9e1szbbsrjuqj.jpg ); */
+    background: url(https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F44%2F2018%2F01%2F27125708%2FGettyImages-540712465_ground.jpg);
+	color: black;
+	background-repeat: no-repeat;
+	background-color:#c1e2e6;
+	font-family: Century Gothic;
+	width: 100vw;
+	height: 100vh;
+	background-size: cover;
+	background-position: top right;
+    /* overflow: hidden;  */
+
+}
+
+html{
+
+	height: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+#content{
+	text-align: center;
+	padding-top: 0;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+				 0px 8px 13px rgba(0,0,0,0.1),
+				 0px 18px 23px rgba(0,0,0,0.1);
+
+}
+ 
+ h1{
+ 	font-weight: 700;
+ 	font-size: 3em;
+	color:white;
+    /* margin: 0 !important; */
+	
+ }
+ a{
+    font-weight: 700;
+ 	font-size: 1em;
+	color:white !important;
+    padding-top: 2;
+    padding-left: 2;
+    text-decoration: none;
+ }
+ table{
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: 700;
+    font-size: 150%;
+    color:white;
+    text-align: left;
+ }
+ .Formcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+    padding: 5px;
+    }
+
+ form {
+    width: 40%;
+    height: 50%;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 6px;
+    background: #fff;
+    box-shadow: 0 0 20px 0 #095484; 
+    }
+    
+    input, select {
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    }
+    input {
+    width: calc(100% - 10px);
+    padding: 5px;
+    border: 2px solid #eee;
+    border-radius: 4px;
+    }
+    input:valid,
+    input:in-range {  
+      border-color: green;
+    }
+    input:invalid,
+    input:out-of-range {
+      border-color: red;  
+    }
+
+
+    select {
+    width: 100%;
+    padding: 7px 0;
+    background: transparent;
+    }
+    .item:hover p, .item:hover i, .question:hover p, .question label:hover, input:hover::placeholder, a {
+    color: #095484;
+    }
+    .item input:hover, .item select:hover {
+    border: 1px solid transparent;
+    box-shadow: 0 0 6px 0 #095484;
+    color: #095484;
+    }
+    .item {
+    position: relative;
+    margin: 10px 0;
+    }
+    input[type="date"]::-webkit-inner-spin-button {
+    display: none;
+    }
+    .item i, input[type="date"]::-webkit-calendar-picker-indicator {
+    position: absolute;
+    font-size: 20px;
+    color: #a9a9a9;
+    }
+    .item i {
+    right: 2%;
+    top: 36px;
+    z-index: 1;
+    }
+    [type="date"]::-webkit-calendar-picker-indicator {
+    right: 1%;
+    z-index: 2;
+    opacity: 0;
+    cursor: pointer;
+    }
+    input[type=checkbox]  {
+    display: none;
+    }
+    label.check {
+    position: relative;
+    display: inline-block;
+    margin: 5px 20px 10px 0;
+    cursor: pointer;
+    }
+    .question span {
+    margin-left: 30px;
+    }
+    span.required {
+    margin-left: 0;
+    color: red;
+    }
+    label.check:before {
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: 0;
+    width: 16px;
+    height: 16px;
+    border-radius: 2px;
+    border: 1px solid #095484;
+    }
+    input[type=checkbox]:checked + .check:before {
+    background: #095484;
+    }
+    label.check:after {
+    content: "";
+    position: absolute;
+    top: 6px;
+    left: 4px;
+    width: 8px;
+    height: 4px;
+    border: 3px solid #fff;
+    border-top: none;
+    border-right: none;
+    transform: rotate(-45deg);
+    opacity: 0;
+    }
+    input[type=checkbox]:checked + label:after {
+    opacity: 1;
+    }
+    .btn-block {
+    margin-top: 10px;
+    margin-bottom: 4px;
+    text-align: center;
+    }
+    button {
+    width: 150px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px; 
+    background: #095484;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+    }
+    button:hover {
+    background: #0666a3;
+    }
+    @media (min-width: 568px) {
+    .name-item, .city-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    }
+    .name-item input, .city-item input {
+    width: calc(50% - 20px);
+    }
+    .city-item select {
+    width: calc(50% - 8px);
+    }
+   }
