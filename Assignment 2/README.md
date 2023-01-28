@@ -1,5 +1,5 @@
 # Introduction
-![Alt text](/images/favicon-portfolio.png "Optional Title")
+![Image_Banner!](https://github.com/Muskansri1/Web-Design-Assignments/blob/master/Assignment%202/images/favicon-portfolio.png)
 
 - A Professional Website using HTML, CSS, Bootstrap to highlight the Experinces, Projects, Projects, Skills etc.
 
@@ -10,8 +10,8 @@
 - [Screenshots](#Screenshots)
 - [Usage](#usage)
 - [FileStructure](#file-structure)
-- [Guideline] (#Guideline)
-- [Credit/Acknowledgement] (#Credits/Acknowledgement)
+- [Guidelines]
+- [Credit/Acknowledgement]
 
 
 ## About
@@ -65,10 +65,11 @@ A Professional Website using HTML, CSS, Bootstrap to highlight the Experinces, P
 - key frames : The @keyframes CSS at-rule controls the intermediate steps in a CSS animation sequence by defining styles for keyframes (or waypoints) along the animation sequence
 
 ## Screenshots
-![Alt text](/Screenshots/Screenshot1.png "Optional Title")
-![Alt text](/Screenshots/Screenshot2.png "Optional Title")
-![Alt text](/Screenshots/Screenshot3.png "Optional Title")
-![Alt text](/Screenshots/Screenshot4.png "Optional Title")
+![Image_Banner!](https://github.com/Muskansri1/Web-Design-Assignments/blob/master/Assignment%202/Screenshots/Screenshot1.png)
+![Image_Banner!](https://github.com/Muskansri1/Web-Design-Assignments/blob/master/Assignment%202/Screenshots/Screenshot2.png)
+![Image_Banner!](https://github.com/Muskansri1/Web-Design-Assignments/blob/master/Assignment%202/Screenshots/Screenshot3.png)
+![Image_Banner!](https://github.com/Muskansri1/Web-Design-Assignments/blob/master/Assignment%202/Screenshots/Screenshot4.png)
+
 
 ## Usage
 Click on the Index.html file to access the website.
