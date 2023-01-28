@@ -1,0 +1,121 @@
+
+
+#mainNavbar .navbar-brand{
+	color: black;
+	font-weight:100;
+	font-size:1.8rem;
+	
+}
+
+#mainNavbar {
+	font-size: 1.5rem;
+	font-weight: 100;
+	font-family: 'Courier', Monospace ;
+}
+
+.blurb h2{
+	color: rgba(255, 255, 255, 0.075);
+	font-weight: 100;
+	font-size: 2.5rem;
+}
+
+
+.blurb p{
+	color: rgba(255, 255, 255, 0.075);
+	font-size: 1.125rem;
+	font-weight: 100;
+	line-height: 2;
+
+}
+
+.content{
+	margin-top: 100px;  
+	margin-bottom: 100px;
+}
+
+#mainNavbar .nav-link {	
+	color: white;
+}
+
+#mainNavbar .nav-link:hover {	
+	color: rgba(255, 255, 255, 0.075);
+}
+
+#headingGroup span{
+	color: rgba(255, 255, 255, 0.075);
+	
+}
+
+
+
+#headingGroup h1{
+	font-weight: 100;
+	font-size: 3rem;
+}
+
+.navbar.scrolled{
+	background: black
+	transition: background 500ms;
+}
+
+*{
+	margin:0;
+	padding:0;
+	/* box-sizing: border-box; */
+	
+}
+html{
+    height: 100%;
+    width: 100% ;
+}
+body{
+	padding: 70px;
+    /* background-repeat: no-repeat; */
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	/* min-height: 100vh; */
+    background-size: cover;
+	background-position: top right;
+    width: 100vw;
+	height: 100vh;
+	background-image:url("https://www.getflavor.com/wp-content/uploads/2022/05/Well-Rounded-Salsiccia-Broccili-Pizza-Featured.png");
+    /* background-image: url(https://thumbs.dreamstime.com/b/homemade-pizza-dark-background-top-view-delicious-salamy-mushrooms-salt-cucumber-concrete-ingredients-cola-fir-tree-165486774.jpg); */
+	background-position: center; 
+}
+
+#content{
+	color: white;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+				 0px 8px 13px rgba(0,0,0,0.1),
+				 0px 18px 23px rgba(0,0,0,0.1);
+
+}
+
+hr{
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom:1px solid rgba(0,0,0,0.2); 
+
+}
+
+
+a{
+	font-weight: 700;
+    color: white !important;
+}
+ /*
+.footer{
+    position:absolute;
+   bottom:0;
+   width:100%;
+   height:100px;   /* Height of the footer 
+   background: black;
+   text-align: center;
+}
+.footer .footertext{
+    margin: 50px auto;
+}
+
+*/
