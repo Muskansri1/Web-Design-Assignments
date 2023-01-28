@@ -10,8 +10,8 @@
 - [Screenshots](#Screenshots)
 - [Usage](#usage)
 - [FileStructure](#file-structure)
-- [Guideline] (#guideline)
-- [Credit/Acknowledgement] (#gredits/Acknowledgement)
+ - [Guideline] (#guideline)
+ - [Credit/Acknowledgement] (#gredits/Acknowledgement)
 
 
 ## About
