@@ -318,6 +318,9 @@
     .section-3-image-left {
         margin-top: 30px;
     }
+    /* .section-3-image-left figcaption{
+        width: 10% !important;
+    } */
 
     .sec3-btn-right {
         padding: 5px 18px;
